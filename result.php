@@ -12,7 +12,7 @@
   <br><br>
   <?php if ($animal_data): ?>
     <CENTER>
-      <h1>Familia a la cual pertecene el animal es: <strong><?php echo $animal_data['family']; ?></strong>  </h1>
+      <h1>Familia a la cual pertecene el animal es: <strong><?php echo $animal_data['familia']; ?></strong>  </h1>
       <a href="hola.php">Regresar</a>
     </CENTER>
   <?php else: ?>

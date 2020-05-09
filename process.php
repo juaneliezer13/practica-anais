@@ -82,7 +82,7 @@ if (isset($_POST)) {
   foreach ($familiesArray as $family) {
     foreach( $family['especies'] as $especie ){
       foreach ($especie['animales_especie'] as $animal) {
-        if ($animal['nombre'] == $_POST['nombre_animal'] && $animal['caracteriticas'] == $_POST['caracteriticas_animal'] && $especie['nombre_especie'] == $_POST['especie_animal']) {
+        if ($animal['nombre'] == $_POST['nombre_animal'] || $animal['caracteriticas'] == $_POST['caracteriticas_animal'] && $especie['nombre_especie'] == $_POST['especie_animal']) {
           $animal_data = [
             'nombre' => $animal['nombre'],
             'familia' => $family['nombre_familia'],
