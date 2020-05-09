@@ -78,7 +78,15 @@ $familiesArray = [
   ],
 ];
 foreach ($familiesArray as $family) {
-  echo $family['nombre_familia'];
+  echo "Nombre de la familia: ". $family['nombre_familia'];
+  echo "</br>";
+  echo "especies de esa familia: ";
+  echo "</br>";
+  foreach( $family['especies'] as $especie ){
+    echo $especie['nombre_especie'];
+    echo "</br>";
+  }
+  echo "</br>";
   echo "</br>";
 }
 ?>
