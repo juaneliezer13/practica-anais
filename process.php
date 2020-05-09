@@ -1,5 +1,5 @@
 <?php
-$animalsFamily = [
+$familiesArray = [
   // Familia Oviparos
   [
     'nombre_familia' => 'oviparos',
@@ -77,4 +77,8 @@ $animalsFamily = [
     ]
   ],
 ];
+foreach ($familiesArray as $family) {
+  echo $family['nombre_familia'];
+  echo "</br>";
+}
 ?>
