@@ -35,10 +35,10 @@
       </div>
       <div class="form-group">
         <select class="form-control input-lg selectpicker show-tick" multiple data-selected-text-format="count > 3" data-style="btn-danger" data-live-search="true">
-          <option value="" selected disabled>Caracteristicas</option>
-          <option value="Pelo blanco">Pelo blanco</option>
-          <option value="Cuatro patas">Cuatro patas</option>
-          <option value="Cola">Cola</option>
+          <option value="" disabled>Caracteristicas</option>
+          <option value="Pelo blanco" >Pelo blanco</option>
+          <option value="Cuatro patas" >Cuatro patas</option>
+          <option value="Cola" >Cola</option>
         </select>
       </div>
       <button type="submit" class="btn btn-danger btn-block">BUSCAR</button>
